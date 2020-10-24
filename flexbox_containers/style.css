@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  border: 20px solid #485123;
+
+  /* Свойства контейнера по умолчанию */
+  flex-direction: row;  
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+.container_item {
+  border: 20px solid #eadd46;
+}
+
+.container_item_1 {
+}
+
+.container_item_2 {
+}
+
+.container_item_3 {
+}
+
+.container_content {
+  background-color: #596a71;
+  padding: 25px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
