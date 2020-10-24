@@ -15,7 +15,7 @@ body {
   display: flex;
   border: 20px solid #485123;
 
-  /* Свойства контейнера по умолчанию */
+  /* Свойства flex-контейнера по умолчанию, можно не задавать */
   flex-direction: row;  
   justify-content: flex-start;
   align-items: stretch;
@@ -27,18 +27,13 @@ body {
 }
 
 .container_item_1 {
+  /* место для экспериментов */
 }
 
 .container_item_2 {
+  /* место для экспериментов */
 }
 
 .container_item_3 {
-}
-
-.container_content {
-  background-color: #596a71;
-  padding: 25px;
-  color: #fff;
-  font-size: 25px;
-  font-weight: bold;
+  /* место для экспериментов */
 }

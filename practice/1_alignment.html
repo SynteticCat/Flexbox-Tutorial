@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .out {
+      margin: 20px;
+      display: flex;
+      width: 300px;
+      height: 300px;
+      background-color: #eadd46;
+    }
+
+    .out_lt {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .out_rc {
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .out_cc {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .in {
+      width: 100px;
+      height: 100px;
+      background-color: #485123;
+    }
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="out out_lt">
+    <div class="in"></div>
+  </div>
+
+  <div class="out out_rc">
+    <div class="in"></div>
+  </div>
+
+  <div class="out out_cc">
+    <div class="in"></div>
+  </div>
+</body>
+</html>
